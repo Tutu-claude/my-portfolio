@@ -7,9 +7,15 @@ header{
     justify-content: space-between;
     margin-left: 3%;
     margin-right: 3%;
-    /* align-items: center; */
-    /* margin-top: 10px; */
 
+}
+.sub-title{
+    color: antiquewhite;
+    font-size: 30px;
+}
+h3{
+    color: antiquewhite;
+    font-size: 30px;
 }
 nav a{
     text-decoration: none;
@@ -19,6 +25,10 @@ nav a{
 nav, a:hover{
  color: yellow;
 
+}
+.logo{
+ width: 200px;
+ margin: 2px;
 }
 nav{
     margin-top: 40px;
@@ -37,6 +47,7 @@ h1{
 section{
     display: flex;
     margin-left: 3%;
+
 }
 .image{
     margin-right: 15%;
@@ -55,14 +66,18 @@ section{
   font-weight: bold;
   transition: 0.3s; 
   text-decoration: none;
+
+}
+.container{
+    margin-left: 20px;
 }
 .primary{
-    border: 5px;
+    border: 1px solid wheat;
     background-color: yellow;
     color: black; 
 }
 .secondary{
-  border: 2px solid yellow;
+  border: 1px solid wheat;
   color:  white;
 }
 .secondary:hover{
@@ -76,7 +91,15 @@ section{
     cursor: pointer;
 }
 button{
+
     border: none;
+    
+}
+.about{
+    display: inline;
+}
+.display{
+    height: 92vh;
 }
 
 
