@@ -1,0 +1,82 @@
+*{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* align-items: center; */
+    /* margin-top: 10px; */
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav, a:hover{
+ color: yellow;
+
+}
+nav{
+    margin-top: 40px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: yellow;   
+}
+h1{
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+section{
+    display: flex;
+    margin-left: 3%;
+}
+.image{
+    margin-right: 15%;
+}
+.hello{
+    font-size: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+.hero a{
+  padding: 20px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s; 
+  text-decoration: none;
+}
+.primary{
+    border: 5px;
+    background-color: yellow;
+    color: black; 
+}
+.secondary{
+  border: 2px solid yellow;
+  color:  white;
+}
+.secondary:hover{
+    background-color: yellow ;
+    color: black;
+    cursor: pointer;
+}
+.primary:hover{
+    background-color: black ;
+    color: white;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+
+
